@@ -1,8 +1,30 @@
 aid: edgefolio
 name: Edgefolio
-description: Edgefolio is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Edgefolio is a London-based financial technology company providing a digital
+  capital-raising and fund-marketing platform for the hedge fund industry. Its
+  SaaS products connect hedge funds, prime brokers, and institutional investors:
+  Edgefolio for Managers offers a secure data-room and CRM for fund managers to
+  control their data, manage investor relationships, and collaborate; Edgefolio
+  for Prime Brokers delivers capital introduction and consulting tooling for cap
+  intro teams; and Edgefolio for Investors is a fund screening and research
+  platform with integrated market data. Surfaced as a portfolio company of
+  Seedcamp. As of this enrichment pass Edgefolio publishes no public API,
+  developer portal, OpenAPI specification, or SDKs — the platform is delivered
+  as a private B2B application accessed via demo and client login.
 url: https://raw.githubusercontent.com/api-evangelist/edgefolio/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://edgefolio.com/wp-content/uploads/2025/10/hero-1.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Hedge Funds
+- Capital Raising
+- Fund Marketing
+- Investment Management
+- Prime Brokerage
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://edgefolio.com
+  url: https://edgefolio.com
+- type: Blog
+  url: https://edgefolio.com/blog/
+- type: PrivacyPolicy
+  url: https://edgefolio.com/privacy/
+- type: TermsOfService
+  url: https://edgefolio.com/terms/
+- type: Login
+  url: https://edgefolio.com/login/
+- type: GitHubOrganization
+  url: https://github.com/Edgefolio
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
